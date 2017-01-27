@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+# Jekyll Boilerplate
 
-You can use the [editor on GitHub](https://github.com/shoemakerlevy9/shoemakerlevy9.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Jekyll Boilerplate is a lightweight and cleaned up version of the initial [Jekyll](https://jekyllrb.com/) setup. The motivation behind this project was for me to avoid doing the same things over and over every time I build yet another site with Jekyll.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Features
 
-### Markdown
+### Additions
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* An empty folder has been created at `assets/images`.
+* An empty folder has been created at `assets/js`.
+* An initial configuration for Kramdown has been added.
+* The CSS is being minified via Sass.
+* Some project-agnostic base styles have been added.
+* Normalize.css has been added.
+* `.DS_Store` and `node_modules` have been added to `.gitignore`.
+* The `jekyll-feed` gem has been added to automate Atom feed generation.
+* The `jekyll-sitemap` gem has been added to automate sitemap generation.
 
-```markdown
-Syntax highlighted code block
+### Editions
 
-# Header 1
-## Header 2
-### Header 3
+* The `_sass` folder has been moved to `assets/sass`.
+* The `css` folder has been moved to `assets/css`.
+* The `default.html` layout has been cleaned up.
+* The `index.html` has been cleaned up.
 
-- Bulleted
-- List
+### Deletions
 
-1. Numbered
-2. List
+* The `about.md` file has been removed.
+* The `page.html` and `post.html` layouts have been removed.
+* The sample post and the `_posts` folder have been removed.
+* All initial partials from the `_includes` folder but `head.html` have been removed.
+* Options `email`, `twitter_username`, `github_username` have been removed.
+* All the existing styles have been removed.
 
-**Bold** and _Italic_ and `Code` text
+### Fixes
 
-[Link](url) and ![Image](src)
-```
+* A `lang` attribute has been added to the default layout.
+* A `<main>` element has been added to the default layout.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Credits
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shoemakerlevy9/shoemakerlevy9.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* [Jekyll](https://jekyllrb.com/)
+* [Hugo Giraudel](https://twitter.com/HugoGiraudel)
