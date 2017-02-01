@@ -25,7 +25,7 @@ github_username:  shomakerlevy9
 # Build settings
 markdown: kramdown
 github_username: shoemakerlevy9
-theme: minimal
+theme: minima
 gems:
   - jekyll-feed
 exclude:
