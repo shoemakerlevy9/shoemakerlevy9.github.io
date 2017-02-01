@@ -24,12 +24,8 @@ github_username:  shomakerlevy9
 
 # Build settings
 markdown: kramdown
-<<<<<<< HEAD
-theme: jekyll-instagram-portfolio-theme
 github_username: shoemakerlevy9
-=======
 theme: jekyll-theme-midnight
->>>>>>> master
 gems:
   - jekyll-feed
 exclude:
