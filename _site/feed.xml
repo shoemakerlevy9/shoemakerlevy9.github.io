@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nick Fragale</title>
+    <description>Nick Fragale is a Robtics Engineer fron the Twin Cities
+</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 06 Feb 2017 23:53:22 -0600</pubDate>
+    <lastBuildDate>Mon, 06 Feb 2017 23:53:22 -0600</lastBuildDate>
+    <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Glacier National Park</title>
+        <description>&lt;p&gt;Cooming soon…&lt;/p&gt;
+</description>
+        <pubDate>Sat, 28 Jan 2017 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/event/Glacier-National-Park.html</link>
+        <guid isPermaLink="true">http://localhost:4000/event/Glacier-National-Park.html</guid>
+        
+        
+        <category>Adventures</category>
+        
+      </item>
+    
+      <item>
+        <title>Open AI Gym</title>
+        <description>&lt;p&gt;Coming soon…&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Dec 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/event/Open-AI-Gym.html</link>
+        <guid isPermaLink="true">http://localhost:4000/event/Open-AI-Gym.html</guid>
+        
+        
+        <category>Projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Titan</title>
+        <description>&lt;p&gt;Coming soon…&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Dec 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/event/Titan.html</link>
+        <guid isPermaLink="true">http://localhost:4000/event/Titan.html</guid>
+        
+        
+        <category>Projects</category>
+        
+      </item>
+    
+      <item>
+        <title>Apostle Islands</title>
+        <description>&lt;p&gt;Coming Soon…&lt;/p&gt;
+</description>
+        <pubDate>Sun, 05 Jun 2016 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/event/Apostle_Islands.html</link>
+        <guid isPermaLink="true">http://localhost:4000/event/Apostle_Islands.html</guid>
+        
+        
+        <category>Adventures</category>
+        
+      </item>
+    
+      <item>
+        <title>Badlands and the Black Hills</title>
+        <description>&lt;p&gt;Coming Soon…&lt;/p&gt;
+</description>
+        <pubDate>Fri, 05 Jun 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/event/Badlands-BlackHills.html</link>
+        <guid isPermaLink="true">http://localhost:4000/event/Badlands-BlackHills.html</guid>
+        
+        
+        <category>Adventures</category>
+        
+      </item>
+    
+  </channel>
+</rss>
