@@ -50,3 +50,4 @@ markdown: kramdown
 future: true
 
 permalink: /event/:title.html
+
