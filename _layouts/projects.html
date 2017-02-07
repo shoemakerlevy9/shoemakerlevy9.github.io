@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body class="home-template">
+    <div id="page" class="site">
+
+      {% include header.html %}
+
+      <div class="page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
+      </div>
+
+
+      {% for tag in site.categories %}
+        <ul class="tags-expo-posts">
+          {% for post in tag[1] %}
+            {% if post.category =="Projects" %}
+              <article class="post-inside post-inside grid-item post tag-music tag-science">
+                <div class="post-bg" style="background-image:url({{post.cover}});"></div>
+
+                <header class="post-header">
+                  <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl  }}" rel="bookmark">{{ post.title }} <span></span></a></h2>
+                  <div class="post-meta">
+                  by <span class="post-author"><a href="{{ site.baseurl }}/about">{{ site.title }} </a></span> 
+                  </div>
+                </header>
+                <div class="read-more">
+                  <a class="button light" href="{{ post.url | prepend: site.baseurl  }}">Read More</a>
+                </div>
+              </article>
+            {%endif %}
+          {% endfor %}
+        </ul>
+      {% endfor %}
+
+<!--
+      {% for tag in site.categories %}
+        <ul class="tags-expo-posts">
+          {% for post in tag[1] %}
+            {% if post.category =="Projects" %}
+              <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+                <li>
+                  {{ post.title }}
+                  <small class="post-date">{{ post.date | date_to_string }}</small>
+                </li>
+              </a>
+            {%endif %}
+          {% endfor %}
+        </ul>
+      {% endfor %}
+-->
+
+<p>.</p>
+
+      {% include footer.html %}
+
+      <div class="overlay"></div>
+    </div>
+  </body>
+</html>

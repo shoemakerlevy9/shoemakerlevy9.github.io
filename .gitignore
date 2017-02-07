@@ -1,7 +1,11 @@
 # build files
 _site/
 .sass-cache/
-.jekyll-metadata
 
 # backup files
 *~
+
+# misc files
+Gemfile.lock
+.jekyll-metadata
+.DS_Store
