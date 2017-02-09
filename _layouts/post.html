@@ -13,7 +13,7 @@ layout: default
         <h1 class="post-title">{{ page.title }}</h1>
 
         <div class="post-meta">
-        by <span class="post-author"><a href="{{ site.baseurl }}/about" itemscope itemtype="http://schema.org/Person">  {{organiser.name}}</a></span> 
+        <span class="post-author"><a href="{{ site.baseurl }}/about" itemscope itemtype="http://schema.org/Person">  {{organiser.name}}</a></span> 
         </div><!-- .post-meta -->
 
         <a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
@@ -28,51 +28,20 @@ layout: default
       {{ content }}
     </p>
 
-  </div><!-- .post-content -->
-            <footer class="post-footer inner">
-                <div class="share-post">
-
-                </div>
-                <div class="author-box">
-
-  {% if organiser.photo %}
+  </div>
+</article>
 
 
-                    <img src="{{organiser.photo}}" alt="Jane Doe" class="author-avatar" />
-
-
-
+<ul class="pager">
+  {% if page.previous.url %}
+    <li class="previous">
+      <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+    </li>
   {% endif %}
 
-
- {% if organiser.photo %}
-
-                    <h4 class="author-title">About <a href="../author/jane-doe/index.html">By {{organiser.name}}</a></h4>
-
-                     {% endif %}
-                    <p class="author-description">{{ site.description }}</p>
-                    <p class="author-links">
-
-                        <span class="author-location"><i class="icon-map-marker" aria-hidden="true"></i> {{organiser.country}}</span>
-
-                        <span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="www.nickfragale.com" target="_blank">www.nickfragale.com</a></span>
-                          <span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="www.nickfragale.com" target="_blank">{{ organiser.email }}</a></span>
-
-                    </p>
-                </div>
-            </footer><!-- .post-footer -->
-        </article><!-- .post -->
-
-
-                <ul class="pager">
-                    {% if page.previous.url %}
-                    <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                    </li>
-                    {% endif %}
-                    {% if page.next.url %}
-                    <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                    </li>
-                    {% endif %}
-                </ul>
+  {% if page.next.url %}
+    <li class="next">
+      <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+    </li>
+  {% endif %}
+</ul>
