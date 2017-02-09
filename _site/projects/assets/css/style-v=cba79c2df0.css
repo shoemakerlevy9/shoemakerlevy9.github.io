@@ -1319,7 +1319,7 @@ pre .storage {
 .grid-item,
 .home-template .grid-item:nth-child(3n+1) {
 	height: 450px;
-	width: 50%;
+	width: 40%;
 }
 
 .grid-item:nth-child(3n+1),
@@ -1333,7 +1333,7 @@ pre .storage {
 	height: auto;
 	padding-left: 60px;
 	padding-right: 60px;
-	width: 50%;
+	width: 40%;
 }
 
 .author-template .grid-item:nth-child(2n+1),
@@ -1343,9 +1343,9 @@ pre .storage {
 
 .post-inside {
 	background-color: #111;
-	height: 100%;
+	height: 80%;
 	position: relative;
-	width: 100%;
+	width: 80%;
 }
 
 .post-inside .post-header {
@@ -1995,16 +1995,15 @@ pre .storage {
 	.grid-item,
 	.home-template .grid-item:nth-child(3n+1),
 	.cover.page-header {
-		height: 500px;
+	height: 500px;
     height: 450px;
-    width: 50%;
-}
+    width: 40%;
 	}
 
 	.grid-item:nth-child(3n+1),
 	.home-template .grid-item:nth-child(3n+3),
 	.cover.hero {
-		height: 800px;
+		height: autopx;
 	}
 
 	.author-template .grid-item,
@@ -2016,11 +2015,11 @@ pre .storage {
 	.home-template .grid-item:nth-child(3n+3) .post-title,
 	.page-title,
 	.post-template .post-title {
-		font-size: 48px;
+		font-size: 72px;
 	}
 
 	.home-template .grid-item:nth-child(3n+1) .post-title {
-		font-size: 36px;
+		font-size: 72px;
 	}
 
 	.cover .scroll-down {
@@ -2128,7 +2127,7 @@ pre .storage {
 @media only screen and (max-width: 960px) {
 	.grid-item,
 	.home-template .grid-item:nth-child(3n+1) {
-		width: 100%;
+		width: 90%;
 	}
 
 	.grid-item:nth-child(3n+1),

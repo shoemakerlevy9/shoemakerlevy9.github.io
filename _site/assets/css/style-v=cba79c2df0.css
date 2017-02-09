@@ -1997,14 +1997,14 @@ pre .storage {
 	.cover.page-header {
 		height: 500px;
     height: 450px;
-    width: 50%;
+    width: 40%;
 }
 	}
 
 	.grid-item:nth-child(3n+1),
 	.home-template .grid-item:nth-child(3n+3),
 	.cover.hero {
-		height: 800px;
+		height: auto;
 	}
 
 	.author-template .grid-item,
@@ -2128,7 +2128,7 @@ pre .storage {
 @media only screen and (max-width: 960px) {
 	.grid-item,
 	.home-template .grid-item:nth-child(3n+1) {
-		width: 100%;
+		width: 90%;
 	}
 
 	.grid-item:nth-child(3n+1),
